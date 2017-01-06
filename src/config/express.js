@@ -1,12 +1,13 @@
 import express from 'express';
-import path from 'path';
+import bodyParser from 'body-parser';
+import routes from '../routes'
 
 const app = express();
 
 app.use(express.static('./src/public'));
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
 
-app.all('/*', (req, res) => {
-	res.sendFile(path.resolve('src/public/index.html'));
-});
+routes(app);
 
 export default app;
