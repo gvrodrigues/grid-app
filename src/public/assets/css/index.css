@@ -1,0 +1,40 @@
+@font-face {
+	font-family: 'Material Icons'; 
+	src: url('https://fonts.googleapis.com/icon?family=Material+Icons'); 
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #9C27B0;
+	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.4em;
+	min-width: 250px;
+	max-width: 600px;
+	margin: 0 auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-weight: 300;
+}
+
+#gridapp {
+	background: #fff;
+	margin: 130px 0 40px 0;
+	padding: 20px;
+	position: relative;
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2),
+	0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+#gridapp h4 {
+	position: absolute;
+	margin-top: -100px;
+	width: 100%;
+	font-size: 40px;
+	font-weight: 100;
+	text-align: center;
+	color: #F3E5F5;
+}
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<base href="/">
+<html ng-app="gridApp">
+<head>
+	<title>App 1 - Grid List</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+
+	<!-- Material Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Angular dependencies -->
+	<script src="assets/libs/angular.min.js"></script>
+	<script src="assets/libs/angular-ui-router.min.js"></script>
+	<script src="app/app.js"></script>
+	<script src="app/controllers/grid-controller.js"></script>
+	<script src="app/services/user-api.js"></script>
+
+</head>
+<body>
+	<!-- Inject the content here !-->
+	<div ui-view></div>
+</body>
+</html>
